@@ -1,0 +1,10 @@
+{
+    "name": "YouTube Ad Skipper",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Lazy YouTube Ad Skipper",
+    "action" :{
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    }
+}
