@@ -4,7 +4,8 @@
     "manifest_version": 3,
     "description": "Lazy YouTube Ad Skipper",
     "permissions": [
-        "storage"
+        "storage",
+        "activeTab"
     ],
     "action" :{
         "default_popup": "popup.html",
