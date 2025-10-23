@@ -8,12 +8,12 @@ const DOM_selectors = [
 ]
 
 function main(){
-    // Check if ad skipper is enabled
     chrome.storage.sync.get(['adSkipperEnabled'], function(result) {
-        const isEnabled = result.adSkipperEnabled !== false; // Default to true if not set
+        const isEnabled = result.adSkipperEnabled !== false; 
         
         if (!isEnabled) {
-            return; // Don't skip ads if disabled
+            console.log("is not enabled or is not youtube")
+            return;
         }
         
         for (const selectors of DOM_selectors) {
